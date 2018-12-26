@@ -46,11 +46,9 @@ echo $censor->replace($data, $string); // outputs: PHP is a ### of fresh ***. Wh
 
 The package also allows you to add wildcards to target words.
 
-For example, if you want to target `idiotic` and `idiot` at the same time, you could specific the pattern as `idiot%`.
+For example, if you want to target `idiotic` and `idiot` at the same time, you could specify the pattern as `idiot%`.
 
-Similarly, `%place%` will also match `Replacers`.
-
-The wildcard character can be changed if you wish, by doing the following
+Similarly, `%place%` will also match `Replacers`. The wildcard character can be changed if you wish, by doing the following
 
 ``` php
 <?php
@@ -65,9 +63,9 @@ $censor->setWildcardCharacter('*');
 ## Replacers
 
 The package ships with 3 `Replacers`.
-- HashReplacer (Replaces word with exactly 3 #)
-- StarReplacer (Replaces word with * matching the length of the word)
-- RandomCharactersReplacer (Replaces word with a set random characters)
+- `HashReplacer` (Replaces word with exactly 3 #)
+- `StarReplacer` (Replaces word with * matching the length of the word)
+- `RandomCharactersReplacer` (Replaces word with a set random characters)
 
 You can also write your own custom replacer. You just need to make sure it follows the `Replacer` interface which is shown below.
 
