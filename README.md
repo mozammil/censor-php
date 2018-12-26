@@ -1,6 +1,11 @@
 # censor-php
 
-This package helps to censor words in a string in PHP.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mozammil/censor-php.svg?style=flat-square)](https://packagist.org/packages/mozammil/censor-php)
+[![Build Status](https://img.shields.io/travis/com/mozammil/censor-php.svg?style=flat-square)](https://travis-ci.org/mozammil/censor-php)
+[![Quality Score](https://img.shields.io/scrutinizer/g/mozammil/censor-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/mozammil/censor-php)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
+This PHP package helps to censor words in a string.
 
 You could censor words by replacing it with other words or you could also use a custom Replacer.
 
