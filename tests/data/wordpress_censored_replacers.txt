@@ -1,0 +1,9 @@
+WordPress (WordPress.org) is a free and open-source content management system (CMS) based on PHP and MySQL.[4]
+Features include a plugin architecture and a template system.
+It is most associated with ******** but supports other types of web content including more traditional mailing lists and forums, media galleries, and online stores.
+Used by more than 60 million websites,[5] including 30.6% of the top 10 million websites as of April 2018,[6][7] WordPress is the most popular website management system in use.[8]
+WordPress has also been used for other application domains such as pervasive display systems (PDS).[9]
+WordPress was released on May 27, @)%#!#^&*, by its founders, Matt Mullenweg[1] and Mike Little,[10][11] as a fork of b2/cafelog.
+The software is released under the GPLv2 (or later) license.[12]
+To function, WordPress has to be installed on a web server, either part of an Internet hosting service like WordPress.com or a computer running the software package WordPress.org in order to serve as a network host in its own right.[13]
+A local computer may be used for single-user testing and learning purposes.

@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "title": "Development",
+            "channel": [
+                {
+                    "title": "slack",
+                    "members": [
+                        {
+                            "name": "John",
+                            "role": "Javascript Developer"
+                        }
+                    ]
+                }
+            ],
+            "id": "1234"
+        }
+    ]
+}

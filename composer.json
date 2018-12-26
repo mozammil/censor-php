@@ -1,0 +1,38 @@
+{
+    "name": "mozammil/censor-php",
+    "description": "A simple PHP package to censor words in a string",
+    "keywords": [
+        "mozammil",
+        "php",
+        "censor"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mozammil Khodabacchas",
+            "email": "hello@moz.im"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mozammil\\Censor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mozammil\\Censor\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
